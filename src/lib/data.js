@@ -188,7 +188,173 @@ export const categories =[
       gender: "Female"
     }
   ];
-  
 
+
+  export const currentUser = {
+    name: "John Doe",
+    role: "doctor",
+    email: "john.doe@example.com",
+    }
+
+
+   export const appointments = [
+      {
+        user: {
+          name: "Ali Khan",
+          email: "alikhan@example.com",
+        },
+        appointmentTime: "10:30 AM",
+        status: "Confirmed",
+        appointmentDate: "2024-12-05",
+        doctor: {
+          name: "Dr. Sarah Ahmed",
+          hospital: "City Hospital",
+        },
+      },
+      {
+        user: {
+          name: "Maria Ali",
+          email: "mariaali@example.com",
+        },
+        appointmentTime: "03:00 PM",
+        status: "Pending",
+        appointmentDate: "2024-12-06",
+        doctor: {
+          name: "Dr. Hamza Iqbal",
+          hospital: "National Medical Center",
+        },
+      },
+      {
+        user: {
+          name: "Usman Siddiqui",
+          email: "usmans@example.com",
+        },
+        appointmentTime: "11:00 AM",
+        status: "Cancelled",
+        appointmentDate: "2024-12-07",
+        doctor: {
+          name: "Dr. Nadia Hassan",
+          hospital: "Dow Medical Complex",
+        },
+      },
+      {
+        user: {
+          name: "Ayesha Noor",
+          email: "ayeshan@example.com",
+        },
+        appointmentTime: "09:00 AM",
+        status: "Confirmed",
+        appointmentDate: "2024-12-08",
+        doctor: {
+          name: "Dr. Zafar Malik",
+          hospital: "Agha Khan Hospital",
+        },
+      },
+      {
+        user: {
+          name: "Hamid Raza",
+          email: "hamidr@example.com",
+        },
+        appointmentTime: "02:30 PM",
+        status: "Rescheduled",
+        appointmentDate: "2024-12-09",
+        doctor: {
+          name: "Dr. Farah Khan",
+          hospital: "Medicare Hospital",
+        },
+      },
+      {
+        user: {
+          name: "Sana Tariq",
+          email: "sanat@example.com",
+        },
+        appointmentTime: "01:00 PM",
+        status: "Confirmed",
+        appointmentDate: "2024-12-10",
+        doctor: {
+          name: "Dr. Ahmed Qureshi",
+          hospital: "Liaquat National Hospital",
+        },
+      },
+      {
+        user: {
+          name: "Bilal Ahmed",
+          email: "bilala@example.com",
+        },
+        appointmentTime: "10:00 AM",
+        status: "Pending",
+        appointmentDate: "2024-12-11",
+        doctor: {
+          name: "Dr. Zainab Shah",
+          hospital: "Shifa International",
+        },
+      },
+      {
+        user: {
+          name: "Rabia Hassan",
+          email: "rabiah@example.com",
+        },
+        appointmentTime: "04:00 PM",
+        status: "Confirmed",
+        appointmentDate: "2024-12-12",
+        doctor: {
+          name: "Dr. Yasir Ansari",
+          hospital: "Civil Hospital",
+        },
+      },
+      {
+        user: {
+          name: "Omar Javed",
+          email: "omarj@example.com",
+        },
+        appointmentTime: "12:00 PM",
+        status: "Cancelled",
+        appointmentDate: "2024-12-13",
+        doctor: {
+          name: "Dr. Mehwish Ali",
+          hospital: "Ziauddin Hospital",
+        },
+      },
+      {
+        user: {
+          name: "Anum Rafiq",
+          email: "anumr@example.com",
+        },
+        appointmentTime: "03:30 PM",
+        status: "Rescheduled",
+        appointmentDate: "2024-12-14",
+        doctor: {
+          name: "Dr. Salman Farooq",
+          hospital: "Altamash General Hospital",
+        },
+      },
+      {
+        user: {
+          name: "Farhan Aziz",
+          email: "farhana@example.com",
+        },
+        appointmentTime: "08:30 AM",
+        status: "Confirmed",
+        appointmentDate: "2024-12-15",
+        doctor: {
+          name: "Dr. Lubna Sheikh",
+          hospital: "Indus Hospital",
+        },
+      },
+      {
+        user: {
+          name: "Madiha Saeed",
+          email: "madihas@example.com",
+        },
+        appointmentTime: "05:00 PM",
+        status: "Pending",
+        appointmentDate: "2024-12-16",
+        doctor: {
+          name: "Dr. Usman Tariq",
+          hospital: "OMI Hospital",
+        },
+      },
+    ];
+    
   
   
