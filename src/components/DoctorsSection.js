@@ -97,12 +97,12 @@ export default function DoctorsSection({ isHome }) {
                                 isHome ?
                                     <CardFooter>
                                         <Link href={`/doctors/${doctor.id}`}>
-                                            <Button>Book Appointment</Button>
+                                            <Button>See Detail</Button>
                                         </Link>
                                     </CardFooter> :
                                     <CardFooter>
                                         <Link className="w-full" href={`/doctors/${doctor.id}`}>
-                                            <Button className="w-full">Book Appointment</Button>
+                                            <Button className="w-full">See Detail</Button>
                                         </Link>
                                     </CardFooter>
                             }
