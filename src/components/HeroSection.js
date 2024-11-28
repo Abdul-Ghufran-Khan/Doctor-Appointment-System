@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Button } from "./ui/button";
+import Link from "next/link";
 
 
 export default function HeroSection() {
@@ -20,9 +21,11 @@ export default function HeroSection() {
                         <Button>
                             Find Doctor You Need
                         </Button>
+                        <Link href={"/doctors/apply"}>
                         <Button variant='outline'>
                             Apply As A Doctor
                         </Button>
+                        </Link>
                        
                     </div>
                 </div>
