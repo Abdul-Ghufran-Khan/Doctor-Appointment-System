@@ -16,7 +16,7 @@ import {
 } from "@/components/ui/card"
 
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
-import { PersonIcon, PlusIcon, ClockIcon } from "@radix-ui/react-icons";
+import { PersonIcon, PlusIcon, ClockIcon  } from "@radix-ui/react-icons";
 
 import { categories, doctors } from "@/lib/data";
 import { Button } from "./ui/button";

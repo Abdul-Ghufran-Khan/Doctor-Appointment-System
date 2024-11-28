@@ -6,8 +6,9 @@ import { appointments } from "@/lib/data";
 export default function Appointments(params) {
     return (
         <div className="container mx-auto">
-            <h1 className="text-4xl">Appointments</h1>
+            <div className="my-10">
             <AppointmentTable columns={columns} data={appointments}/>
+            </div>
         </div>
     )
 }

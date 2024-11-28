@@ -1,7 +1,7 @@
+import { DatePicker } from "@/components/DatePicker";
 import { Button } from "@/components/ui/button";
 import { doctors } from "@/lib/data";
-import { PersonIcon } from "@radix-ui/react-icons";
-import { ClockIcon, PlusIcon } from "lucide-react";
+import { IdCardIcon, PersonIcon ,ClockIcon, PlusIcon , CalendarIcon } from "@radix-ui/react-icons";
 import Image from "next/image";
 
 export default function DoctorDetail({ params }) {
@@ -149,10 +149,16 @@ export default function DoctorDetail({ params }) {
                                 </div>
                                 <h1>{DoctorDetail.appointmentTime}</h1>
                             </div>
-                            <div className="flex my-9">
-                                <span className="title-font font-medium text-2xl text-gray-900">
-                                    Fee: ${DoctorDetail.fees}
-                                </span>
+                            <div className="flex justify-between my-2">
+                                <div className="flex items-center gap-2">
+                                   <IdCardIcon/>
+                                    <h1 className="font-semibold">Fee:</h1>
+                                </div>
+                                <h1>${DoctorDetail.fees}</h1>
+                            </div>
+                            <div className="flex justify-center items-center gap-2">
+                            <CalendarIcon/>
+                            <DatePicker/>
                             </div>
                                 <Button className="flex ml-auto border-0 py-2 w-full">
                                     Book Appointment
