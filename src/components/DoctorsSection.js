@@ -34,7 +34,7 @@ export default function DoctorsSection({ isHome }) {
                 {
                     isHome ?
                         <Link href={"/doctors"}>
-                            <Button>View All</Button>
+                            <Button className="px-6">View All</Button>
                         </Link>
                         : (
                             <Select>
