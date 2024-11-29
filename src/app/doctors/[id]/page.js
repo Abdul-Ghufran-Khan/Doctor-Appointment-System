@@ -160,7 +160,7 @@ export default function DoctorDetail({ params }) {
                             <CalendarIcon/>
                             <DatePicker/>
                             </div>
-                                <Button className="flex ml-auto border-0 py-2 w-full">
+                                <Button className="flex mt-4 ml-auto border-0 py-2 w-full">
                                     Book Appointment
                                 </Button>
                         </div>
