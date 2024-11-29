@@ -1,4 +1,4 @@
-import FormComponent from "@/components/ApplyForm";
+import ApplyAsDoctorForm from "@/components/ApplyForm";
 
 export default function DoctorApplication() {
     return (
@@ -15,7 +15,7 @@ export default function DoctorApplication() {
             I agree to the <span className="text-blue-500">Terms and Conditions</span>.
           </label>
         </div>
-        {/* <FormComponent/> */}
+        <ApplyAsDoctorForm/>
       </div>
 
     );
