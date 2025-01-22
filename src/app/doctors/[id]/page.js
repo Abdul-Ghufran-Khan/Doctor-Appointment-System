@@ -135,7 +135,7 @@ export default function DoctorDetail({ params }) {
                                 </div>
                                 <h1>{DoctorDetail.gender}</h1>
                             </div>
-                            <div className="flex justify-between my-2">
+                            <div className="flex justify-between my-3">
                                 <div className="flex items-center gap-2">
                                     <PlusIcon />
                                     <h1 className="font-semibold">Hospital:</h1>
